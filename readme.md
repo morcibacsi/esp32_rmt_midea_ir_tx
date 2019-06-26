@@ -4,7 +4,7 @@
 
 ### Schema
 
-![schema](https://github.com/morcibacsi/esp32_rmt_midea_ir_tx/raw/master/schema/schema.jpg)
+![schema](https://github.com/morcibacsi/esp32_rmt_midea_ir_tx/raw/master/schema/esp32_ir.jpg)
 
 ### Usage
 
