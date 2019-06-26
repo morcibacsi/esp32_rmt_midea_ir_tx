@@ -58,7 +58,7 @@ void loop()
 ### Thanks
 A big thanks goes to [@sheinz](https://github.com/sheinz) His library was used as a base as it was very easy to replace the signal sending part of it with my implementation.
 
-#### Without the following pages this software couldn't exist. They contain very useful information how the protocol works.
+#### Without the following pages this software couldn't exist. They contain very useful information on how the protocol works.
 
 
 * https://github.com/sheinz/esp-midea-ir
