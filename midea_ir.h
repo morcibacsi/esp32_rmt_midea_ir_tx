@@ -38,7 +38,17 @@
     /**
      * Send Ir signal to move deflector
      */
-    void midea_ir_move_deflector(MideaIR *ir);
+    void midea_ir_move_deflector();
+
+    void midea_ir_oscilate();
+
+    void midea_ir_turbo_mode();
+
+    void midea_ir_ionize_mode();
+
+    void midea_ir_clean_device();
+
+    void midea_ir_no_sound();
 
     /**
      * Stop Ir module

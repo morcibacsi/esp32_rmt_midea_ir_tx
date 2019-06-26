@@ -114,9 +114,44 @@ void midea_ir_send(MideaIR *ir)
     rmt_midea_ir_tx_send_raw_message(dp.DataAsByteArray, 3);
 }
 
-void midea_ir_move_deflector(MideaIR *ir)
+void midea_ir_move_deflector()
 {
     uint8_t data[3] = {0xB2, 0x0F, 0xE0};
+
+    rmt_midea_ir_tx_send_raw_message(data, 3);
+}
+
+void midea_ir_oscilate()
+{
+    uint8_t data[3] = {0xB2, 0x6B, 0xE0};
+
+    rmt_midea_ir_tx_send_raw_message(data, 3);
+}
+
+void midea_ir_turbo_mode()
+{
+    uint8_t data[3] = {0xB5, 0xF5, 0xA2};
+
+    rmt_midea_ir_tx_send_raw_message(data, 3);
+}
+
+void midea_ir_ionize_mode()
+{
+    uint8_t data[3] = {0xB5, 0xF5, 0xA9};
+
+    rmt_midea_ir_tx_send_raw_message(data, 3);
+}
+
+void midea_ir_clean_device()
+{
+    uint8_t data[3] = {0xB5, 0xF5, 0xAA};
+
+    rmt_midea_ir_tx_send_raw_message(data, 3);
+}
+
+void midea_ir_no_sound()
+{
+    uint8_t data[3] = {0xB5, 0xF5, 0xA5};
 
     rmt_midea_ir_tx_send_raw_message(data, 3);
 }
