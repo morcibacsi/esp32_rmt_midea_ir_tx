@@ -38,7 +38,7 @@ void setup()
     delay(5000);
 
     // starts moving the deflector
-    midea_ir_move_deflector(&ir);
+    midea_ir_move_deflector();
 
     delay(5000);
 
